@@ -1,0 +1,106 @@
+﻿/*Класс определят отступ слева*/
+.marginL { margin-left: 10px; }
+
+.marginD { margin-left: 3px; }
+
+/*Метка которая размещается на одной линии с элементом управления есть место*/
+
+div.label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+}
+
+div.label150 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+}
+
+div.label140 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 140px;
+}
+
+/*Метка которая размещается на одной линии с элементом управления есть место*/
+
+div.labelmargin {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    width: 100px;
+}
+
+/*Блок включающий в себя метку и элемент управления или другие блоки, который размещается на линии один*/
+
+div.predicate_block {
+    display: block;
+    margin-top: 5px;
+    min-height: 20px;
+}
+
+/*Блок включающий в себя метку и элемент управления, который может размещаться на одной линии с другими блоками с отступом*/
+
+div.inline_predicate_block_text {
+    display: block;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*Блок включающий в себя метку и элемент управления, который может размещаться на одной линии с другими блоками*/
+
+div.inline_predicate_block {
+    display: block;
+    /*margin-top:5px;*/
+    display: inline-block;
+    min-height: 20px;
+    vertical-align: middle;
+}
+
+.brt { BORDER-RIGHT: gray 1px solid }
+
+.blt { BORDER-LEFT: gray 1px solid }
+
+.btp { BORDER-TOP: gray 1px solid }
+
+.bbm { BORDER-BOTTOM: gray 1px solid }
+
+.bkColor { BACKGROUND-COLOR: #efefef }
+
+.txtTop { VERTICAL-ALIGN: top }
+
+.errS {
+    COLOR: red;
+    FONT-SIZE: 7pt
+}
+
+.footer2 {
+    bottom: 5px;
+    font-size: 7pt;
+    left: 0;
+    margin-top: 7px;
+    text-align: right;
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    font-size: 7pt;
+    margin-top: 7px;
+}
+
+/*Класс используется для вертикального выравнивания элементов типа DBSelect*/
+
+div.aligned_control { vertical-align: middle; }
+
+.Grid8 TABLE	{border-top: darkgray 1px solid;	border-left: darkgray 1px solid;}
+.Grid8 TD		{border-bottom: darkgray 1px solid;	border-right: darkgray 1px solid;}
+.Grid8 TH		{border-right: darkgray 1px solid;	border-bottom: darkgray 1px solid;}
+
+.GridHeader		{text-align: center;BACKGROUND-COLOR: #629ed0;}
+.GridHeader A		{color:black;text-decoration: underline;}
+.GridHeader A:hover	{color:blue;text-decoration: underline;}
